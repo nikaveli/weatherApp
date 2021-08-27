@@ -13,6 +13,7 @@ function submitBtn(){
             //into json in the next promise
             return response.json();
         })
+        
         .then(function(data) {
             //Will be a json object to work with
             console.log(data);
